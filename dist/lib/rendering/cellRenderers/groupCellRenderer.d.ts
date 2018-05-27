@@ -37,4 +37,5 @@ export declare class GroupCellRenderer extends Component implements ICellRendere
     private onKeyDown(event);
     onExpandOrContract(): void;
     private showExpandAndContractIcons();
+    refresh?(params: any): void;
 }
